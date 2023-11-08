@@ -8,9 +8,9 @@ int main()
 {
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
-    cout << "----\tДавай розв'яжемо це завдання\t----\n\n";
+    cout << "----\t!!Розв'яжемо це завдання!!\t----\n\n";
 
-    float Y, sumchik, x, i;
+    float y, sumchik, x, i;
     cout << "Введіть x=\n";
     cin >> x;
     sumchik = 1;
@@ -23,6 +23,6 @@ int main()
             sumchik += pow(n, 3);
         }
         Y = cos(sumchik) + log(x) / (pow(tan(x), 2));
-        cout << "---\tВідповідь\t---\n" << "Y= " << Y;
+        cout << "---\tВідповідь\t---\n" << "Y= " << y;
     }
 }
