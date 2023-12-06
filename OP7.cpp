@@ -20,5 +20,7 @@ int main()
     }
     Z = sin(dobchik);
     cout << "---\tÂ³äïîâ³äü\t---\n" << "Z= " << Z;
+
+    cout << "Êâàñ";
 }
 
